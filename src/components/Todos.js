@@ -10,6 +10,7 @@ class Todos extends Component {
         key={todo.id}
         todo={todo}
         markComplete={this.props.markComplete}
+        delTodo={this.props.delTodo}
       />
     )); // todo is passed to TodoItem as a props
   }
